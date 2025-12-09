@@ -159,14 +159,14 @@ namespace Project___Issac
                 g.DrawImage(hero[i].image[j], hero[i].X, hero[i].Y);
             }
         }
-        public void DrawTear(Graphics g)
-        {
-            g = this.CreateGraphics();
-            for (int i = 0; i < bullet.Count; i++)
-            {
-                g.DrawImage(bullet[i].image, bullet[0].X, bullet[0].Y);
-            }
-        }
+        //public void DrawTear(Graphics g)
+        //{
+        //    g = this.CreateGraphics();
+        //    for (int i = 0; i < bullet.Count; i++)
+        //    {
+        //        g.DrawImage(bullet[i].image, bullet[0].X, bullet[0].Y);
+        //    }
+        //}
     }
 }
 
