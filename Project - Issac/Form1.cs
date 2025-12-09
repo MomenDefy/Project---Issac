@@ -149,16 +149,16 @@ namespace Project___Issac
             }
             bullet.Add(tear);
         }
-        public void DrawIssac(Graphics g)
-        {
-            g = this.CreateGraphics();
-            for (int i = 0; i < hero.Count; i++)
-            {
-                hero[i].animationIndex = (hero[i].animationIndex + 1) % 4;
-                int j = hero[i].animationIndex;
-                g.DrawImage(hero[i].image[j], hero[i].X, hero[i].Y);
-            }
-        }
+        //public void DrawIssac(Graphics g)
+        //{
+        //    g = this.CreateGraphics();
+        //    for (int i = 0; i < hero.Count; i++)
+        //    {
+        //        hero[i].animationIndex = (hero[i].animationIndex + 1) % 4;
+        //        int j = hero[i].animationIndex;
+        //        g.DrawImage(hero[i].image[j], hero[i].X, hero[i].Y);
+        //    }
+        //}
         public void DrawTear(Graphics g)
         {
             g = this.CreateGraphics();
